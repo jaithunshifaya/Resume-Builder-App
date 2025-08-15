@@ -11,7 +11,6 @@ A comprehensive resume builder application that allows users to create professio
 - **Responsive Design** - Works perfectly on all devices
 - **User Authentication** - Secure login and registration system
 - **Photo Upload** - Add your professional photo
-- **Multiple Resume Management** - Save and manage multiple resumes
 - **Guest Mode** - Try the app without creating an account
 
 ### Backend Features
@@ -25,7 +24,7 @@ A comprehensive resume builder application that allows users to create professio
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React 18** with TypeScript
+- **React Js** with TypeScript
 - **Tailwind CSS** for styling
 - **React Router** for navigation
 - **React Hook Form** for form management
@@ -158,17 +157,16 @@ The application will be available at:
 3. Set build command: `npm run build`
 4. Set output directory: `dist`
 5. Add environment variables:
-   - `VITE_API_URL=https://your-api-domain.com/api`
+   - `VITE_API_URL=http://localhost:5000/api`
 
 ### Backend Deployment (Railway)
 
 1. Connect your GitHub repository to Railway
 2. Set the root directory to `server`
 3. Add environment variables:
-   - `MONGODB_URI=your-mongodb-connection-string`
-   - `JWT_SECRET=your-jwt-secret-key`
-   - `NODE_ENV=production`
-   - `FRONTEND_URL=https://your-frontend-domain.com`
+   - `MONGODB_URI=mongodb://localhost:27017/resumebuilder`
+   - `NODE_ENV=development`
+   - `FRONTEND_URL=[https://your-frontend-domain.com](http://localhost:3000)`
 
 ### Alternative: Render
 
@@ -207,9 +205,6 @@ npm run lint
 # Database
 MONGODB_URI=mongodb://localhost:27017/resumebuilder
 
-# Authentication
-JWT_SECRET=your-super-secret-jwt-key-here
-
 # Server
 PORT=5000
 NODE_ENV=development
@@ -217,10 +212,6 @@ NODE_ENV=development
 # CORS
 FRONTEND_URL=http://localhost:3000
 
-# File Upload (Optional - for Cloudinary)
-CLOUDINARY_CLOUD_NAME=your-cloud-name
-CLOUDINARY_API_KEY=your-api-key
-CLOUDINARY_API_SECRET=your-api-secret
 ```
 
 ### Frontend (.env)
