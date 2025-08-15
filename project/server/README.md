@@ -41,7 +41,6 @@ cp .env.example .env
 4. Configure your environment variables in `.env`:
 ```
 MONGODB_URI=mongodb://localhost:27017/resumebuilder
-JWT_SECRET=your-super-secret-jwt-key-here
 PORT=5000
 NODE_ENV=development
 FRONTEND_URL=http://localhost:3000
@@ -95,24 +94,6 @@ The server will start on `http://localhost:5000`
 6. Add environment variables
 7. Deploy!
 
-### Environment Variables for Production
-
-```
-MONGODB_URI=your-mongodb-connection-string
-JWT_SECRET=your-jwt-secret-key
-NODE_ENV=production
-FRONTEND_URL=https://your-frontend-domain.com
-```
-
-## Security Features
-
-- Helmet for security headers
-- Rate limiting
-- Input validation
-- JWT authentication
-- CORS configuration
-- File upload validation
-
 ## Contributing
 
 1. Fork the repository
@@ -121,6 +102,3 @@ FRONTEND_URL=https://your-frontend-domain.com
 4. Push to the branch
 5. Create a Pull Request
 
-## License
-
-MIT License
