@@ -249,7 +249,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-If you have any questions or need help with setup, please open an issue on GitHub or contact the maintainers.
+If you have any questions, feedback, or need support, you can reach me at:
+
+- **LinkedIn:** [Jaithun Shifaya](https://www.linkedin.com/in/jaithun-shifaya03/)  
+- **GitHub:** [jaithunshifaya](https://github.com/jaithunshifaya)  
+- **Email:** [jaithunshifaya@gmail.com](mailto:jaithunshifaya@gmail.com)
 
 ---
 
