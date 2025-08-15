@@ -89,7 +89,6 @@ cp .env.example .env
 4. Configure your environment variables in `.env`:
 ```env
 MONGODB_URI=mongodb://localhost:27017/resumebuilder
-JWT_SECRET=your-super-secret-jwt-key-here
 PORT=5000
 NODE_ENV=development
 FRONTEND_URL=http://localhost:3000
