@@ -1,6 +1,7 @@
 # Resume Builder - Full Stack Application
 
 A comprehensive resume builder application that allows users to create professional resumes with ease. Built with React.js for the frontend and Node.js + Express.js for the backend, with MongoDB for data storage.
+**Live Demo:** [Resume Builder App](https://resume-builder-app-85cd.vercel.app/)
 
 ## 🚀 Features
 
@@ -127,7 +128,7 @@ npm run dev
 ```
 
 The application will be available at:
-- Frontend: `http://localhost:3000`
+- Frontend: `http://localhost:5173`
 - Backend: `http://localhost:5000`
 
 ## 📚 API Documentation
@@ -137,15 +138,6 @@ The application will be available at:
 - `POST /api/auth/login` - Login user
 - `GET /api/auth/me` - Get current user
 
-### Resume Endpoints
-- `GET /api/resume` - Get all resumes for authenticated user
-- `GET /api/resume/:id` - Get single resume
-- `POST /api/resume` - Create new resume
-- `PUT /api/resume/:id` - Update resume
-- `DELETE /api/resume/:id` - Delete resume
-
-### Upload Endpoints
-- `POST /api/upload/profile-photo` - Upload profile photo
 
 ## 🚀 Deployment
 
@@ -155,8 +147,7 @@ The application will be available at:
 2. Set the root directory to `client`
 3. Set build command: `npm run build`
 4. Set output directory: `dist`
-5. Add environment variables:
-   - `VITE_API_URL=http://localhost:5000/api`
+
 
 ### Backend Deployment (Railway)
 
