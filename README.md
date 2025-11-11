@@ -1,7 +1,7 @@
 # Resume Builder - Full Stack Application
 
 A comprehensive resume builder application that allows users to create professional resumes with ease. Built with React.js for the frontend and Node.js + Express.js for the backend, with MongoDB for data storage.
-**Live Demo:** [Resume Builder App](https://resume-builder-app-85cd.vercel.app/)
+
 
 ## 🚀 Features
 
